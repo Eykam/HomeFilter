@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/address/{address}": {
+      "name": "/address/{address}",
+      "lambdaFunction": "homefilterLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
